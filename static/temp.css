@@ -1,0 +1,116 @@
+.assignment_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3vw 0vw;
+}
+.project_name{
+    font-size: 3vw;
+    font-weight: bold;
+    color: yellow;
+    /* margin: 1.5vw; */
+    padding: 1vw;
+}
+.name , .clgname{
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+    /* margin: 0.5vw; */
+    padding: 0.5vw;
+}
+.content{
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: cyan;
+    padding: 0.5vw;
+    /* margin: 0.5vw; */
+    width: 92vw;
+    text-align: center;
+}
+.project_name:hover{
+    border: solid cyan 0.005vw;
+} 
+.name:hover {
+    border: solid cyan 0.005vw;
+}
+.clgname:hover{
+    border: solid cyan 0.005vw;
+}
+ .content:hover{
+    border: solid cyan 0.005vw;
+}
+#bgcolor ,#textsize ,#textcolor ,#textfont{
+    background: transparent;
+    color: cyan;
+    height: 1.5vw;
+    width: 9vw;
+    margin-top: 0.5vw;
+    text-align: center;
+    font-size: 1vw;
+    padding: 0.3vw;
+    resize: none;
+    border-radius: 1vw;
+    border: 0.1px solid gold;
+    margin-left: 2.2vw;
+}
+#textfont{
+    height: 2vw;
+    width: 9.5vw;
+}
+.addbtn{
+    display: inline-block;
+    margin: 0vw 1vw;
+    border-radius: 0.3vw;
+    background-color: #23295b;
+    padding: 0.5vw 0.5vw;
+    border: 0.1vw solid black;
+    color: cyan;
+    font-size: 1vw;
+}
+.changeStyle{
+    /* margin-top: 2vw; */
+    display: flex;
+    flex-direction: column;
+    /* width: 13vw; */
+    /* align-content: center; */
+    justify-content: space-around;
+
+}
+.stylebox{
+    display: none;
+    position:fixed;
+    left :82vw;
+    top: 3vw;
+    background-color: #151b48;
+    padding: 0.5vw;
+    border-radius: 1vw;
+}
+.myimage{
+    background-color: yellow;
+    color: #23295b;
+    display: none;
+}
+.reqimg{
+    width: 2vw;
+    margin: 2vw;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+}
+.printfile{
+    position: fixed;
+    bottom: 3vw;
+    left: 85vw;
+    display: inline-block;
+    margin: 0vw 1vw;
+    border-radius: 0.3vw;
+    background-color: #23295b;
+    padding: 0.5vw 0.5vw;
+    border: 0.1vw solid black;
+    color: cyan;
+    font-size: 1vw;
+}

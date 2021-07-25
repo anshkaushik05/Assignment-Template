@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../static/favicon-16x16.png">
+    <link rel="stylesheet" href="../static/bodydetails.css">
+    <link rel="stylesheet" href="../static/personal.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="logo">
+                <img src="../static/logoimg.png" alt="logo img" class="logo_img">
+            </div>
+            <!-- <div class="name">
+            </div> -->
+        </div>
+        <nav class="navbar">
+            <!-- <div class="nav_btn">
+                <a href="#">About Us</a>
+            </div> -->
+            <div class="nav_btn" style="padding: 0.5vw 2vw;">
+                <a href="/sign_up">Sign Up</a>
+            </div>
+            <div class="nav_btn">
+                <a href="https://forms.gle/QV3z1dvd1Y6QjD5d9">Reviews</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="assignment_body">
+            <h2>Enter your Details Below</h2>
+        </div>
+        <form action="#" method="POST" class="bodyform">
+            <div class="personalform">
+                <textarea name="project_name"  placeholder="Project/Assignment Name" class="personal_text_box"  ></textarea>
+                <textarea name="full_name"  placeholder="Your Name" class="personal_text_box"></textarea>
+                <textarea name="clg_name"  placeholder="School/College name" class="personal_text_box"></textarea>
+            </div>
+            <div class="desc">
+                <textarea name="desc0" id="" placeholder="Paste/write here  (More Description)" class="textbox" ></textarea>
+            </div>
+            //- <input type="number" name="i" style="display: none;" id="numi">
+            //- <input type="favaorites[]" name="arr" style="display: none;" id="arri">
+            <div class="add_options">
+                <div class="add_btn">
+                    |Add More
+                </div>
+                <div class="add_btn">
+                    |Next
+                </div>
+            </div>
+            //- <input type="submit" class="submit_btn">
+            <a   href="/assignment" class="submit_btn"> 
+        </form>
+    </main>
+    <footer>
+        <div class="footer_bottom">
+            <div class="foot_btn" style="padding: 0.5vw 2vw;">
+                <a href="/sign_up">Sign Up</a>
+            </div>
+            <div class="foot_social">
+                <a href = "#"><i class="fa fa-facebook" id="fb"></i></a> 
+                <a href = "#"><i class="fa fa-twitter"  id="twitter"></i></a>
+                <a href = "#"><i class="fa fa-linkedin" id="linkedin"></i></a>
+            </div>
+            <div class="copyright">
+                | © Copyright © TaskGod .2021 All rights reserved
+            </div>
+        </div>
+    </footer>
+</body>
+//- <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+//- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="../static/details.js"></script>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK GOD</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../static/favicon-16x16.png">
+    <link rel="stylesheet" href="../static/temp.css">
+</head>
+<body>
+  <main class="assignment_head">
+
+        div.project_name.box= project_name
+        div.name.box= full_name
+        div.clgname.box= clg_name
+
+        each val in desc ? desc :[]
+                div.content.box= val  
+        each val in content ? content :[]
+                div.content.box= val
+  </main>
+  <div  class="stylebox">
+          <div class="changeStyle">
+                  <textarea name="" id="textsize" cols="30" rows="1" placeholder="Font Size"></textarea>
+                  <textarea name="" id="bgcolor" cols="30" rows="1" placeholder="Background Colour"></textarea>
+                  <textarea name="" id="textcolor" cols="30" rows="1" placeholder="Font Colour"></textarea>
+                  <!-- <textarea name="" id="textfont" cols="30" rows="1" placeholder="Font Type"></textarea> -->
+                  <!-- <label for="cars">Choose a car:</label> -->
+
+                        <select name="'Courier New', Courier, monospace" id="textfont">
+
+                        
+                        <option value="'Courier New', Courier, monospace">'Courier New', Courier, monospace</option>
+
+                        
+                        <option value="'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif</option>
+
+                        
+                        <option value="'Times New Roman', Times, serif">'Times New Roman', Times, serif</option>
+
+                        
+                        <option value="Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Cambria, Cochin, Georgia, Times, 'Times New Roman', serif</option>
+
+                        </select>
+                  <div style="display: flex; flex-direction: row; margin-top: 1vw;">
+                  <div class="addbtn">Add Photo</div>
+                  <div class="addbtn">Change</div>
+                  </div>
+          </div>
+  </div>
+  <div class="printfile">Print PDF </div>
+  <div class="nouse" style="display: none;"></div>
+</body>
+<script src="../static/demo.js"></script>
+</html>

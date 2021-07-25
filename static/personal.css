@@ -1,0 +1,32 @@
+.personal_text_box{
+    background: transparent;
+    color: cyan;
+    height: 2vw;
+    width: 20vw;
+    margin-top: 3vw;
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    resize: horizontal;
+    border-radius: 1vw;
+    border: 0.1px solid gold;
+}
+.personalform{
+    display: flex;
+    width: 90vw;
+    /* grid-template-columns: 4vw; */
+    justify-content: space-around;
+}
+.desc{
+    margin: 5vw 0vw;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-around;
+}
+.desc textarea{
+    width: 15vw;
+}
+.add_btn{
+    cursor: pointer;
+}

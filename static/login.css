@@ -1,0 +1,44 @@
+.textbox{
+    background: transparent;
+    color: cyan;
+    height: 2vw;
+    width: 10vw;
+    /* margin-top: 3vw; */
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    resize: none;
+    border-radius: 1vw;
+    border: 0.1px solid #8549ff;
+    margin: 1vw;
+    align-self: center;
+}
+.loginbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5vw;
+}
+.copyright{
+  margin-left:3vw;
+}
+.add_btn{
+    display: inline-block;
+    margin: 2vw 0vw;
+    align-self: center;
+    border-radius: 0.3vw;
+    background-color: #23295b;
+    padding: 0.5vw 1.5vw;
+    border: 0.1vw solid black;
+    color: cyan;
+    font-size: 1.2vw;
+    width: 5vw;
+    text-align: center;
+}
+.footer_bottom{
+  text-align: center;
+  margin-left: 4.5vw;
+}
+.ifwrong{
+  display: none;
+}

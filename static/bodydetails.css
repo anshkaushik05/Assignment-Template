@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+.assignment_body{
+    margin-top: 10vw;
+    width: 100vw;
+    /* background-color: aliceblue; */
+    text-align: center;
+
+}
+.assignment_body h2{
+    font-size: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 2vw;
+    color: cyan;
+}
+.bodyform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textbox{
+    background: transparent;
+    color: cyan;
+    height: 8vw;
+    width: 40vw;
+    margin: 3vw 1vw;
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 1vw;
+    resize: horizontal;
+    border-radius: 1vw;
+    border: 0.1px solid gold;
+}
+.add_options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vw;
+}
+.add_btn{
+    display: inline-block;
+    margin: 0vw 2vw;
+    border-radius: 0.3vw;
+    background-color: #23295b;
+    padding: 0.5vw 1.5vw;
+    border: 0.1vw solid black;
+    color: cyan;
+    font-size: 1.2vw;
+}
+/* .add_btn a{
+    text-decoration: none;
+    
+} */
+.add_btn:hover{
+    border: 0.1vw solid #f37b7b;
+}
+.myimage{
+    background-color: yellow;
+    color: #23295b;
+   
+}
+input[type="file"] {
+    display: none;
+}
+.preview_img{
+    width: 19.20vw;
+    height: 10.80vw;
+    background-color: rgb(21, 79, 131);
+    border: cyan solid 0.1vw;
+    border-radius: 0.5vw;
+}
+.img_pre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #23295b;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+.submit_btn{
+    display: none;
+}
+.add_btn{
+    cursor: pointer;
+}
